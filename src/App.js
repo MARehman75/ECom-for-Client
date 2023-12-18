@@ -3,6 +3,7 @@ import CartPage from './pages/CartPage';
 import Checkout from './pages/Checkout';
 import Home from './pages/Home';
 import LoginPage from './pages/LoginPage';
+import ProductDetailPage from './pages/ProductDetailPage';
 import SignupPage from './pages/SignupPage';
 
 import {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/checkout",
     element: <Checkout/>,
+  },
+  {
+    path: "/product-detail",
+    element: <ProductDetailPage/>,
   },
 ]);
 
